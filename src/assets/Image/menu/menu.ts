@@ -1,0 +1,12 @@
+export { default as menu01 } from "./img01.webp";
+export { default as menu02 } from "./img02.webp";
+export { default as menu03 } from "./img03.webp";
+export { default as menu04 } from "./img04.webp";
+export { default as menu05 } from "./img05.webp";
+export { default as menu06 } from "./img06.webp";
+export { default as menu07 } from "./img07.webp";
+export { default as menu08 } from "./img08.webp";
+export { default as menu09 } from "./img09.webp";
+export { default as menu10 } from "./img10.webp";
+export { default as menu11 } from "./img11.webp";
+export { default as menu12 } from "./img12.png";
