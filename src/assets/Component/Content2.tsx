@@ -1,4 +1,4 @@
-
+import Bghome from "../Image/bg-home-sports.jpg"
 
 function Content2 () {
     return (
@@ -20,33 +20,34 @@ function Content2 () {
 
 
 
-          <div className="bg-[url('https://img.gashinzo.com/img/static/ae888/2023/bg-home-sports.jpg')]">
+          <div>
                {/* <img src="https://img.gashinzo.com/img/static/ae888/2023/bg-home-sports.jpg" alt=""  width={1600} height={560}/> */}
+               <img src={Bghome} alt=""/>
           </div>
-          <div className="flex flex-col items-center">
-               <div className="flex ">
-                    <div>
+          <div className="flex flex-col">
+               <div className="flex w-[1200px] m-auto mt-4 gap-4 ">
+                    <div className="bg-red-500 border rounded shadow-sm w-[385px] h-[185px]">
                          <div>
-                              <h3>*WNBA</h3>
+                              <h3 className="text-sm mt-2 font-normal text-black">*WNBA</h3>
                          </div>
                          <div>
-                              <div className="flex items-end mt-4">
+                              <div className="flex items-end gap-2 mt-4">
                                    <div>
-                                        <div className="flex flex-col items-center">
+                                        <div className="flex flex-col gap-2 items-center">
                                              <img src="https://cmbi.licimg.com/TeamImg/team_flag_home.png" alt=""  width={60} height={60}/>
-                                             <p>Minnesota Lynx (W)</p>
+                                             <p className="text-xs">Minnesota Lynx (W)</p>
                                              <button className="text-white bg-black w-32 h-10">73</button>
                                         </div>
                                    </div>
                                    <div className="">
                                         <p>07/21 07:00(GMT +7:00)</p>
-                                        <h3 className="mt-4 mb-4">VS</h3>
+                                        <h3 className="text-[21px] font-bold text-black mt-4 mb-4">VS</h3>
                                         <button className="text-white bg-[#ed642d] w-32 h-10">Cược Ngay</button>
                                    </div>
                                    <div>
                                         <div className="flex flex-col items-center">
                                              <img src="https://cmbi.licimg.com/TeamImg/team_flag_away.png" alt=""  width={60} height={60}/>
-                                             <p>Los Angeles Sparks (W)</p>
+                                             <p className="text-xs">Los Angeles Sparks (W)</p>
                                              <button className="text-white bg-black w-32 h-10">70</button>
                                         </div>
                                    </div>
@@ -116,14 +117,14 @@ function Content2 () {
 
 
 
-        <div className="flex justify-around mt-8">
+        <div className="flex w-[1200px] m-auto justify-between mt-8">
           <p className="text-2xl">Hot Games</p>
           <p className="text[#333] font-semibold text-sm">Nhấn xem chi tiết </p>
         </div>
         <div>
           <p className="text-[#c30d01] text-[25px] font-semibold mt-4 mb-4">CHÀO MỪNG ĐẾN VỚI AE888</p>
         </div>
-        <div className="flex gap-4 justify-center">
+        <div className="flex w-[1200px] m-auto justify-between">
                <div>
                     <img src="https://img.gashinzo.com/img/static/ae888/2023/btmb-01.jpg" alt="" width={261} height={201} />
                     <p className="italic mt-4 text-[#f6ae1f]">TẠO TÀI KHOẢN</p>

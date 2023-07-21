@@ -19,7 +19,7 @@ function App() {
         <Content1 />
       </div>
       <Content2 />
-      <div className="mt-4">
+      <div className="mt-4 ">
         <Footer1 />
       </div>
       <Footer2 />
