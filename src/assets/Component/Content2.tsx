@@ -20,31 +20,95 @@ function Content2 () {
 
 
 
-          <div>
-               <img src="https://img.gashinzo.com/img/static/ae888/2023/bg-home-sports.jpg" alt=""  width={1600} height={560}/>
+          <div className="bg-[url('https://img.gashinzo.com/img/static/ae888/2023/bg-home-sports.jpg')]">
+               {/* <img src="https://img.gashinzo.com/img/static/ae888/2023/bg-home-sports.jpg" alt=""  width={1600} height={560}/> */}
           </div>
           <div className="flex flex-col items-center">
-               <div>
-                    <h3>*WNBA</h3>
-               </div>
                <div className="flex ">
                     <div>
-                         <div className="flex flex-col items-center">
-                              <img src="https://cmbi.licimg.com/TeamImg/team_flag_home.png" alt=""  width={60} height={60}/>
-                              <p>Minnesota Lynx (W)</p>
-                              <button className="text-white bg-black w-32 h-10">73</button>
+                         <div>
+                              <h3>*WNBA</h3>
+                         </div>
+                         <div>
+                              <div className="flex items-end mt-4">
+                                   <div>
+                                        <div className="flex flex-col items-center">
+                                             <img src="https://cmbi.licimg.com/TeamImg/team_flag_home.png" alt=""  width={60} height={60}/>
+                                             <p>Minnesota Lynx (W)</p>
+                                             <button className="text-white bg-black w-32 h-10">73</button>
+                                        </div>
+                                   </div>
+                                   <div className="">
+                                        <p>07/21 07:00(GMT +7:00)</p>
+                                        <h3 className="mt-4 mb-4">VS</h3>
+                                        <button className="text-white bg-[#ed642d] w-32 h-10">Cược Ngay</button>
+                                   </div>
+                                   <div>
+                                        <div className="flex flex-col items-center">
+                                             <img src="https://cmbi.licimg.com/TeamImg/team_flag_away.png" alt=""  width={60} height={60}/>
+                                             <p>Los Angeles Sparks (W)</p>
+                                             <button className="text-white bg-black w-32 h-10">70</button>
+                                        </div>
+                                   </div>
+                              </div>
                          </div>
                     </div>
-                    <div >
-                         <p>07/21 07:00(GMT +7:00)</p>
-                         <h3>VS</h3>
-                         <button className="text-white bg-[#ed642d] w-32 h-10">Cược Ngay</button>
-                    </div>
+
                     <div>
-                         <div className="flex flex-col items-center">
-                              <img src="https://cmbi.licimg.com/TeamImg/team_flag_away.png" alt=""  width={60} height={60}/>
-                              <p>Los Angeles Sparks (W)</p>
-                              <button className="text-white bg-black w-32 h-10">70</button>
+                         <div>
+                              <h3>*WNBA</h3>
+                         </div>
+                         <div>
+                              <div className="flex items-end mt-4">
+                                   <div>
+                                        <div className="flex flex-col items-center">
+                                             <img src="https://cmbi.licimg.com/TeamImg/team_flag_home.png" alt=""  width={60} height={60}/>
+                                             <p>Minnesota Lynx (W)</p>
+                                             <button className="text-white bg-black w-32 h-10">63</button>
+                                        </div>
+                                   </div>
+                                   <div className="">
+                                        <p>07/21 09:00(GMT +7:00)</p>
+                                        <h3 className="mt-4 mb-4">VS</h3>
+                                        <button className="text-white bg-[#ed642d] w-32 h-10">Cược Ngay</button>
+                                   </div>
+                                   <div>
+                                        <div className="flex flex-col items-center">
+                                             <img src="https://cmbi.licimg.com/TeamImg/team_flag_away.png" alt=""  width={60} height={60}/>
+                                             <p>Los Angeles Sparks (W)</p>
+                                             <button className="text-white bg-black w-32 h-10">79</button>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div>
+                         <div>
+                              <h3>*WNBA</h3>
+                         </div>
+                         <div>
+                              <div className="flex items-end mt-4">
+                                   <div>
+                                        <div className="flex flex-col items-center">
+                                             <img src="https://cmbi.licimg.com/TeamImg/team_flag_home.png" alt=""  width={60} height={60}/>
+                                             <p>Minnesota Lynx (W)</p>
+                                             <button className="text-white bg-black w-32 h-10">80</button>
+                                        </div>
+                                   </div>
+                                   <div className="">
+                                        <p>07/21 09:00(GMT +7:00)</p>
+                                        <h3 className="mt-4 mb-4">VS</h3>
+                                        <button className="text-white bg-[#ed642d] w-32 h-10">Cược Ngay</button>
+                                   </div>
+                                   <div>
+                                        <div className="flex flex-col items-center">
+                                             <img src="https://cmbi.licimg.com/TeamImg/team_flag_away.png" alt=""  width={60} height={60}/>
+                                             <p>Los Angeles Sparks (W)</p>
+                                             <button className="text-white bg-black w-32 h-10">62</button>
+                                        </div>
+                                   </div>
+                              </div>
                          </div>
                     </div>
                </div>
@@ -52,7 +116,7 @@ function Content2 () {
 
 
 
-        <div className="flex justify-around mt-4">
+        <div className="flex justify-around mt-8">
           <p className="text-2xl">Hot Games</p>
           <p className="text[#333] font-semibold text-sm">Nhấn xem chi tiết </p>
         </div>

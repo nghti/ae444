@@ -21,13 +21,17 @@
   ul li a {
     color: #333333;
     display: block;
-    padding: 0px 40px;
+    padding-right: 22px;
     text-decoration: none;
     float: left;
     height: 60px;
-    // line-height: 60px;
+    font-size: 12px;
     img {
       margin: 0 auto;
+    }
+    span {
+      padding-top: 7px;
+      display: block;
     }
   }
 
