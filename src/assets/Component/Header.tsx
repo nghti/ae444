@@ -13,6 +13,42 @@ import {
   menu10,
   menu11,
   menu12,
+  menu01_1,
+  menu01_2,
+  menu01_3,
+  menu01_4,
+  menu01_5,
+  menu02_1,
+  menu02_2,
+  menu02_3,
+  menu02_4,
+  menu02_5,
+  menu03_1,
+  menu03_2,
+  menu03_3,
+  menu03_4,
+  menu03_5,
+  menu03_6,
+  menu04_1,
+  menu04_2,
+  menu04_3,
+  menu05_1,
+  menu05_2,
+  menu05_3,
+  menu05_4,
+  menu05_5,
+  menu06_1,
+  menu06_2,
+  menu06_3,
+  menu06_4,
+  menu06_5,
+  menu07_1,
+  menu07_2,
+  menu07_3,
+  menu07_4,
+  menu07_5,
+  menu08_1,
+  menu08_2,
 } from "../Image/menu/menu";
 
 function Header() {
@@ -36,42 +72,27 @@ function Header() {
               <ul>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu01_1} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu01_2} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu01_3} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu01_4} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu01_5} alt="" />
                   </a>
                 </li>
               </ul>
@@ -84,42 +105,27 @@ function Header() {
               <ul>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu02_1} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu02_2} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu02_3} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu02_4} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu02_5} alt="" />
                   </a>
                 </li>
               </ul>
@@ -132,42 +138,27 @@ function Header() {
               <ul>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu03_1} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu03_2} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu03_4} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu03_5} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu03_6} alt="" />
                   </a>
                 </li>
               </ul>
@@ -180,42 +171,17 @@ function Header() {
               <ul>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu04_1} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu04_2} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu04_3} alt="" />
                   </a>
                 </li>
               </ul>
@@ -228,42 +194,27 @@ function Header() {
               <ul>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu05_1} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu05_2} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu05_3} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu05_4} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu05_5} alt="" />
                   </a>
                 </li>
               </ul>
@@ -276,42 +227,27 @@ function Header() {
               <ul>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu06_1} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu06_2} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu06_3} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu06_4} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu06_5} alt="" />
                   </a>
                 </li>
               </ul>
@@ -324,42 +260,27 @@ function Header() {
               <ul>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu07_1} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu07_2} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu07_3} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu07_4} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu07_5} alt="" />
                   </a>
                 </li>
               </ul>
@@ -372,42 +293,12 @@ function Header() {
               <ul>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu08_1} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="https://img.gashinzo.com/img/static/desktop/sub-menu/sub-sports-saba.png"
-                      alt=""
-                    />
+                    <img src={menu08_2} alt="" />
                   </a>
                 </li>
               </ul>
