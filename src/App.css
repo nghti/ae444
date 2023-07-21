@@ -44,3 +44,12 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Slider */
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+.slick-dots {
+  bottom: 15px !important;
+}
