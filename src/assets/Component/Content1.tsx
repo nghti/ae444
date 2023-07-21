@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import Icon_pre from "../Image/icon/pre.png";
 import Icon_next from "../Image/icon/next.png";
+import Img1 from  "../Image/Slide/img1.jpg"
+
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -71,7 +73,7 @@ function Content1() {
       <Slider {...settings}>
         <div>
           <img
-            src="https://img.gashinzo.com/img/ae888/ads/661f5077-df1a-4d19-a853-c5f7d975d525.jpg"
+            src={Img1}
             alt=""
           />
         </div>
