@@ -1,9 +1,7 @@
-import React, { Component } from "react";
 import Slider from "react-slick";
 import Icon_pre from "../Image/icon/pre.png";
 import Icon_next from "../Image/icon/next.png";
-import Img1 from  "../Image/Slide/img1.jpg"
-
+import Img1 from "../Image/Slide/img1.jpg";
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -62,7 +60,7 @@ function Content1() {
   };
   return (
     <>
-      <div className="flex justify-between bg-black items-center absolute w-full">
+      {/* <div className="flex justify-between bg-black items-center absolute w-full">
         <div className="flex ml-32 items-center gap-2">
           <img src="src/assets/Image/menu-4-16.png" alt="" width={25} />
         </div>
@@ -70,13 +68,10 @@ function Content1() {
           <button className="bg-[#ed642d]">Đăng nhập</button>
           <button className="bg-[#b7281d]">Đăng ký</button>
         </div>
-      </div>
+      </div> */}
       <Slider {...settings}>
         <div>
-          <img
-            src={Img1}
-            alt=""
-          />
+          <img src={Img1} alt="" />
         </div>
         <div>
           <img

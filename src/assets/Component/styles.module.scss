@@ -64,3 +64,64 @@
     height: 350px;
   }
 }
+
+.slider2 {
+  img {
+    padding: 5px;
+    border-radius: 15px;
+    vertical-align: middle;
+  }
+}
+.bgRace {
+  align-items: flex-end;
+  background: #f7f7f7
+    url(https://img.gashinzo.com/img/static/ae888/2023/bg-home-sports.jpg)
+    no-repeat 50% / auto 100%;
+  display: flex;
+  height: 350px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.bg3 {
+  background: linear-gradient(125deg, #fff, #f3f3f3 70%, #dedede 0, #f0f0f0);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  color: #000;
+  font-size: 13px;
+}
+.Deposits {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 10px;
+  &::after {
+    background: linear-gradient(90deg, #f8d204 0, red);
+    bottom: 40px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+  &::before {
+    z-index: 9;
+    background: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 10px;
+    left: calc(50% - 8px);
+    position: relative;
+    top: 3px;
+    width: 10px;
+    border: 3px solid #f6ae1f;
+  }
+}
